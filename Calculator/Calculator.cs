@@ -69,7 +69,7 @@ namespace Calculator
 
         public double Subtract(double b)
         {
-            return Add(Accumulator, b);
+            return Subtract(Accumulator, b);
         }
 
         public double Multiply(double b)
